@@ -27,16 +27,12 @@ example [js-template](https://www.github.com/ga-wdi-boston/js-template).
 1.  Create and checkout a new branch to work on.
 1.  Fulfill the listed requirements.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js).
+Starter code is available in [`lib/challenge.js`](lib/challenge.js). A pull
+request is note required, but it is necessary if you want a code review.
 
 You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
 related to [forking,
 cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
-
-It's probably a good idea to include the above verbatim in each challenge.
-Remember to edit the link to the actual diagnostic file (it might be stored in a
-different directory or have a different extension). If tooling is not included
-in this diagnostic, feel free to remove that bit from these instructions.
 
 ## Requirements
 
