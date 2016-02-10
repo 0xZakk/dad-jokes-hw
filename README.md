@@ -28,7 +28,7 @@ example [js-template](https://www.github.com/ga-wdi-boston/js-template).
 1.  Fulfill the listed requirements.
 
 Starter code is available in [`lib/challenge.js`](lib/challenge.js). A pull
-request is note required, but it is necessary if you want a code review.
+request is not required, but it is necessary if you want a code review.
 
 You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
 related to [forking,
