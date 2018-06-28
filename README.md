@@ -1,58 +1,38 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Challenge Template
+# Dad Jokes
 
-Use this template to structure your READMEs for diagnostics.
-
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)). Also, include an appropriate
-`.gitignore`; these are usually found in specific technology templates, for
-example [js-template](https://www.github.com/ga-wdi-boston/js-template).
+The [Dad Jokes API](https://icanhazdadjoke.com/api) includes an endpoint for [getting a random dad joke](https://icanhazdadjoke.com/api#fetch-a-random-dad-joke). Your task is to build an app using React that displays a random dad joke from the API with the push of a button!
 
 ## Prerequisites
 
--   Topics with which developers should be familiar with.
--   Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-    Sass, I would **not** need to include CSS as a prerequisite.
--   [Links to previous materials](https://www.github.com/ga-wdi-boston/example)
-    are often useful.
--   In a challenge, it is useful to link to reference material, such as talk
-    repositories.
+-   React and React Components
+-   State and Props
+-   The Component Lifecycle Methods
+-   Working with an API
 
 ## Instructions
 
 1.  Fork and clone this repository.
 1.  Change into the new directory.
 1.  Install dependencies.
-1.  Create and checkout a new branch to work on.
 1.  Fulfill the listed requirements.
+1.  Make a pull request to submit your work.
 
-Starter code is available in [`lib/challenge.js`](lib/challenge.js). A pull
-request is not required, but it is necessary if you want a code review.
-
-You may wish to refer to [FAQs](https://github.com/ga-wdi-boston/meta/wiki/)
-related to [forking,
-cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
+The starter code provided here is based on Create React App. Make a pull request by the end of the lab block for your assignment to be considered complete.
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
-
-You should be running `grunt nag` before diagnosing any bugs, since it finds
-some of the most common sources of errors. After `grunt nag` passes, you should
-run `grunt test` to run the included tests. Tests will tell you whether of not
-you've met these requirements.
+Your application should display a large button that, when clicked, fetches a random dad joke from the dad jokes API and displays it to the user. It should look as close to the image provided below. You could, as a bonus, have a random dad joke appear when the app loads.
+Describe behavioral requirements a
 
 ## Bonus
 
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
+Animate your dad jokes!
 
-Sometimes, we ask questions that promote thinking critically about code.
+When someone pushes the button to get a new dad joke, you should first animate the current dad joke out. Animating out an element typically means creating an animation that takes it from view. Feel free to be creative here! A simple option would be to fade the text out. A crazy, fun option would be to have each character of the joke fly off the screen in a different direction.
+
+Once your old joke has animated out, then you'll want to animate in your new joke. Animating something out takes it away from view, animating something in brings it in to view. Again, feel free to be creative here! A simple option is to fade the text in. A crazy, fun option would be to have the individual characters come in from all different directions.
 
 ## [License](LICENSE)
 
