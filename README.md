@@ -29,11 +29,13 @@ Your application should display a large button that, when clicked, fetches a ran
 
 ## Bonus
 
-Animate your dad jokes!
+Build a queue that stores the 10 most recently retrieved dad jokes! Additionally, add some buttons that let you scroll back and forth through the queue.
 
-When someone pushes the button to get a new dad joke, you should first animate the current dad joke out. Animating out an element typically means creating an animation that takes it from view. Feel free to be creative here! A simple option would be to fade the text out. A crazy, fun option would be to have each character of the joke fly off the screen in a different direction.
+You should have:
 
-Once your old joke has animated out, then you'll want to animate in your new joke. Animating something out takes it away from view, animating something in brings it in to view. Again, feel free to be creative here! A simple option is to fade the text in. A crazy, fun option would be to have the individual characters come in from all different directions.
+* One button to get a new joke (append to queue). If there are >10 jokes in the queue, drop the oldest one.
+* One button to advance to the next joke.
+* One button to move to the previous joke.
 
 ## [License](LICENSE)
 
