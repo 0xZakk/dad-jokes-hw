@@ -23,7 +23,9 @@ The starter code provided here is based on Create React App. Make a pull request
 
 ## Requirements
 
-Your application should display a large button that, when clicked, fetches a random dad joke from the dad jokes API and displays it to the user. It should look as close to the image provided below. You could, as a bonus, have a random dad joke appear when the app loads.
+Your application should make a random dad joke appear when the app loads.
+
+It should also display a large button that, when clicked, fetches a random dad joke from the dad jokes API and displays it to the user. Make it look as close to the image provided below. 
 
 ![Dad Jokes app mock](./assets/dad-jokes.png)
 
